@@ -14,8 +14,12 @@ public class Person {
     public int getAge() {
         return age;
     }
-    
+
     public void greeting() {
         System.out.printf("hello, my name is %s, im %d years old", name, age);
+    }
+
+    public int birthAge(){
+        return 2023 - age;
     }
 }
